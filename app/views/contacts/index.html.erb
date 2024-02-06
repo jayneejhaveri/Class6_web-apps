@@ -1,0 +1,17 @@
+<h1>Contacts</h1>
+
+<% companies = Contact.all %>
+
+<ul>
+<% for contact in companies%>
+<% %>
+<li>
+<%= contact["first_name"] %> <%= contact["last_name"] %> <%= contact["company_id"]%>
+</li>
+
+
+<% end %>
+
+
+
+ </ul>
